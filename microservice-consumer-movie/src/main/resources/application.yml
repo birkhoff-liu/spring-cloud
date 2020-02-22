@@ -1,0 +1,25 @@
+
+server:
+  port: 8010
+spring:
+  application:
+    name: microservice-consumer-movie
+
+user:
+  userServiceUrl: http://localhost:8000/
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://user:password123@localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+
+#放开Actuator web rest 端点，否则访问不到
+management:
+  endpoints:
+    enabled: true
+    web:
+      base-path: /actuator #访问根路径
+      exposure:
+        include: "*"

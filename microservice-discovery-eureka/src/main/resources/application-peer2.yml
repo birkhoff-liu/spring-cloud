@@ -1,0 +1,10 @@
+server:
+  port: 1112                    # ָ eureka端口
+eureka:
+  instance:
+    hostname: peer2
+  client:
+    registerWithEureka: false #表示不向注册中心注册自已的服务
+    fetchRegistry: false #由于注册中心的职责就是维护服务实例，不需要去检索服务，所以值为false
+    serviceUrl:
+      defaultZone: http://peer2:1111/eureka/

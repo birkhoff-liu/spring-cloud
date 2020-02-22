@@ -1,0 +1,17 @@
+server:
+  port: 8761                    # ָ eureka端口
+eureka:
+  client:
+    registerWithEureka: false #表示不向注册中心注册自已的服务
+    fetchRegistry: false #由于注册中心的职责就是维护服务实例，不需要去检索服务，所以值为false
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+
+
+#security:
+#  basic:
+#    enabled: true               # ��������HTTP basic����֤
+#  user:
+#    name: user                  # ���õ�¼���˺���user
+#    password: password123       # ���õ�¼��������password123
