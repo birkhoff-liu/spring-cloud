@@ -1,11 +1,11 @@
 package com.birkhoff.cloud;
 
+import com.birkhoff.cloud.filters.pre.PreRequestLogFilter;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 import org.springframework.context.annotation.Bean;
 
-import com.itmuch.cloud.study.filters.pre.PreRequestLogFilter;
 
 @SpringBootApplication
 @EnableZuulProxy
