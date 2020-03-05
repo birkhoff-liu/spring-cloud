@@ -1,0 +1,24 @@
+server:
+  port: 8091
+spring:
+  application:
+    #定义服务名
+    name: nacos-service
+  cloud:
+    nacos:
+      discovery:
+        #注册中心地址 --注意须要以"/"结尾
+        server-addr: http://127.0.0.1:8001/
+      config:
+        #配置中心地址 --注意须要以"/"结尾
+        server-addr: http://127.0.0.1:8001/
+        #组别
+        group: DEFAULT_GROUP
+        #文件类别
+        file-extension: yaml
+  #使用环境
+  profiles:
+    active: dev
+logging:
+  level:
+    root: info
