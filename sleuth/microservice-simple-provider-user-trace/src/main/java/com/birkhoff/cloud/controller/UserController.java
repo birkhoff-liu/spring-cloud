@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.Optional;
+
 
 @RestController
 public class UserController {
@@ -15,7 +17,7 @@ public class UserController {
 
   @GetMapping("/{id}")
   public User findById(@PathVariable Long id) {
-    User findOne = this.userRepository.findOne(id);
-    return findOne;
+    Optional<User> findOne = this.userRepository.findById(id);
+    return findOne.get();
   }
 }
