@@ -21,3 +21,5 @@ spring boot 集成kafka发送和接收消息，适用于集成了SASL_PLAINTEXT�
 
 #### 消息消费示例
 参考KafkaConsumer.java
+
+git 学习
