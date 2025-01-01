@@ -1,0 +1,3 @@
+com/birkhoff/cloud/controller/NacosCustomerService.class
+com/birkhoff/cloud/openFeign/NacosServiceFeign.class
+com/birkhoff/cloud/NacosCustomerServiceApplication.class

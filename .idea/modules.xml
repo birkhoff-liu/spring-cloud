@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/kafka/kafka-demo/kafka-demo.iml" filepath="$PROJECT_DIR$/kafka/kafka-demo/kafka-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-config-client/microservice-config-client.iml" filepath="$PROJECT_DIR$/microservice-config-client/microservice-config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-config-server/microservice-config-server.iml" filepath="$PROJECT_DIR$/microservice-config-server/microservice-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie/microservice-consumer-movie.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie/microservice-consumer-movie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-feign/microservice-consumer-movie-feign.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-feign/microservice-consumer-movie-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-discovery-eureka/microservice-discovery-eureka.iml" filepath="$PROJECT_DIR$/microservice-discovery-eureka/microservice-discovery-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-gateway-zuul/microservice-gateway-zuul.iml" filepath="$PROJECT_DIR$/microservice-gateway-zuul/microservice-gateway-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-gateway-zuul-fallback/microservice-gateway-zuul-fallback.iml" filepath="$PROJECT_DIR$/microservice-gateway-zuul-fallback/microservice-gateway-zuul-fallback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-gateway-zuul-filter/microservice-gateway-zuul-filter.iml" filepath="$PROJECT_DIR$/microservice-gateway-zuul-filter/microservice-gateway-zuul-filter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-hystrix-dashboard/microservice-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/microservice-hystrix-dashboard/microservice-hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos/microservice-nacos-customer/microservice-nacos-customer.iml" filepath="$PROJECT_DIR$/nacos/microservice-nacos-customer/microservice-nacos-customer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos/microservice-nacos-provider/microservice-nacos-provider.iml" filepath="$PROJECT_DIR$/nacos/microservice-nacos-provider/microservice-nacos-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-provider-user/microservice-provider-user.iml" filepath="$PROJECT_DIR$/microservice-provider-user/microservice-provider-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-provider-user1/microservice-provider-user1.iml" filepath="$PROJECT_DIR$/microservice-provider-user1/microservice-provider-user1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sleuth/microservice-simple-consumer-movie-trace/microservice-simple-consumer-movie-trace.iml" filepath="$PROJECT_DIR$/sleuth/microservice-simple-consumer-movie-trace/microservice-simple-consumer-movie-trace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sleuth/microservice-simple-consumer-movie-trace-zipkin/microservice-simple-consumer-movie-trace-zipkin.iml" filepath="$PROJECT_DIR$/sleuth/microservice-simple-consumer-movie-trace-zipkin/microservice-simple-consumer-movie-trace-zipkin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sleuth/microservice-simple-provider-user-trace/microservice-simple-provider-user-trace.iml" filepath="$PROJECT_DIR$/sleuth/microservice-simple-provider-user-trace/microservice-simple-provider-user-trace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sleuth/microservice-simple-provider-user-trace-zipkin/microservice-simple-provider-user-trace-zipkin.iml" filepath="$PROJECT_DIR$/sleuth/microservice-simple-provider-user-trace-zipkin/microservice-simple-provider-user-trace-zipkin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sleuth/microservice-trace-zipkin-server/microservice-trace-zipkin-server.iml" filepath="$PROJECT_DIR$/sleuth/microservice-trace-zipkin-server/microservice-trace-zipkin-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/workspace_springcloud_1.iml" filepath="$PROJECT_DIR$/.idea/workspace_springcloud_1.iml" />
+    </modules>
+  </component>
+</project>

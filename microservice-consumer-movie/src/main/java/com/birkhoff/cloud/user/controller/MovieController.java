@@ -28,8 +28,8 @@ public class MovieController {
 
     @GetMapping("/user/{id}")
     public User findById(@PathVariable Long id) {
-        ServiceInstance instance = discoveryClient.getLocalServiceInstance();
-        LOGGER.info("host :" + instance.getHost() + ", service_id : " + discoveryClient.getServices().get(0));
+//        ServiceInstance instance = discoveryClient.getServices();
+//        LOGGER.info("host :" + instance.getHost() + ", service_id : " + discoveryClient.getServices().get(0));
         return this.restTemplate.getForObject(userServiceUrl + id, User.class);
     }
 

@@ -22,7 +22,8 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://user:password123@localhost:8761/eureka/
+      #defaultZone: http://user:password123@localhost:8761/eureka/
+      defaultZone: http://localhost:8761/eureka/
     healthckeck:
       enabled: true
   instance:

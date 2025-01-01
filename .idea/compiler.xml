@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microservice-config-server" />
+        <module name="microservice-api-gateway" />
+        <module name="microservice-trace-zipkin-server" />
+        <module name="microservice-simple-provider-user-trace" />
+        <module name="kafka-demo" />
+        <module name="microservice-simple-consumer-movie-trace-zipkin" />
+        <module name="microservice-provider-user1" />
+        <module name="microservice-nacos-provider" />
+        <module name="microservice-simple-provider-user-trace-zipkin" />
+        <module name="microservice-gateway-zuul-fallback" />
+        <module name="microservice-gateway-zuul" />
+        <module name="microservice-gateway-zuul-filter" />
+        <module name="microservice-hystrix-dashboard" />
+        <module name="microservice-discovery-eureka" />
+        <module name="microservice-provider-user" />
+        <module name="microservice-consumer-movie-feign" />
+        <module name="microservice-simple-consumer-movie-trace" />
+        <module name="microservice-nacos-customer" />
+        <module name="microservice-consumer-movie" />
+        <module name="microservice-config-client" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="microservice-gateway-zuul (1)" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="kafka-demo" options="-parameters" />
+      <module name="microservice-api-gateway" options="-parameters" />
+      <module name="microservice-config-client" options="-parameters" />
+      <module name="microservice-config-server" options="-parameters" />
+      <module name="microservice-consumer-movie" options="-parameters" />
+      <module name="microservice-consumer-movie-feign" options="-parameters" />
+      <module name="microservice-discovery-eureka" options="-parameters" />
+      <module name="microservice-gateway-zuul" options="-parameters" />
+      <module name="microservice-gateway-zuul (1)" options="-parameters" />
+      <module name="microservice-gateway-zuul-fallback" options="-parameters" />
+      <module name="microservice-gateway-zuul-filter" options="-parameters" />
+      <module name="microservice-hystrix-dashboard" options="-parameters" />
+      <module name="microservice-nacos-customer" options="-parameters" />
+      <module name="microservice-nacos-provider" options="-parameters" />
+      <module name="microservice-provider-user" options="-parameters" />
+      <module name="microservice-provider-user1" options="-parameters" />
+      <module name="microservice-simple-consumer-movie-trace" options="-parameters" />
+      <module name="microservice-simple-consumer-movie-trace-zipkin" options="-parameters" />
+      <module name="microservice-simple-provider-user-trace" options="-parameters" />
+      <module name="microservice-simple-provider-user-trace-zipkin" options="-parameters" />
+      <module name="microservice-trace-zipkin-server" options="-parameters" />
+    </option>
+  </component>
+</project>

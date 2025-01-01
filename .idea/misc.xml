@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/microservice-consumer-movie/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-discovery-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-provider-user/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-gateway-zuul-filter/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-gateway-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-gateway-zuul-fallback/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/sleuth/microservice-simple-provider-user-trace/pom.xml" />
+        <option value="$PROJECT_DIR$/sleuth/microservice-simple-consumer-movie-trace/pom.xml" />
+        <option value="$PROJECT_DIR$/sleuth/microservice-trace-zipkin-server/pom.xml" />
+        <option value="$PROJECT_DIR$/sleuth/microservice-simple-consumer-movie-trace-zipkin/pom.xml" />
+        <option value="$PROJECT_DIR$/sleuth/microservice-simple-provider-user-trace-zipkin/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos/microservice-nacos-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos/microservice-nacos-customer/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-consumer-movie-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-api-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-provider-user1/pom.xml" />
+        <option value="$PROJECT_DIR$/kafka/kafka-demo/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

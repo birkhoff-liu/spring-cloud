@@ -1,0 +1,3 @@
+com/birkhoff/cloud/NacosProviderServiceApplication.class
+com/birkhoff/cloud/controller/NacosProviderService.class
+com/birkhoff/cloud/openFeign/ProducerConfigInfo.class
